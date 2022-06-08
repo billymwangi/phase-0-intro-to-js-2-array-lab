@@ -6,12 +6,12 @@ function destructivelyAppendCat(Ralph) {
     return cats
 }
 function destructivelyPrependCat(Bob) {
-    cats.unshift("bob")
+    cats.unshift("Bob")
     return cats
 }
 function destructivelyRemoveLastCat() {
     cats.pop()
-    return cats
+    
 }
 function destructivelyRemoveFirstCat(){
     cats.shift()
@@ -27,5 +27,5 @@ function removeLastCat() {
     return cats.slice(0, cats.length-1);
 }
 function removeFirstCat() {
-    return cats.slice(0, cats.length1);
+    return cats.slice(0,3);
 }

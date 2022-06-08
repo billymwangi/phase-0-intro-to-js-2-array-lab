@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 9,
-    "passes": 7,
+    "passes": 8,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-06-08T08:44:38.556Z",
-    "end": "2022-06-08T08:44:39.068Z",
-    "duration": 512
+    "failures": 1,
+    "start": "2022-06-08T15:41:21.323Z",
+    "end": "2022-06-08T15:41:21.794Z",
+    "duration": 471
   },
   "tests": [
     {
@@ -20,22 +20,16 @@
     {
       "title": "appends a cat to the end of the cats array",
       "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'bob', 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Bob', 'Milo', 'Otis', 'Garfield' ]",
-        "showDiff": true,
-        "actual": "[\n  \"bob\"\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "expected": "[\n  \"Bob\"\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "stack": "AssertionError: expected [ 'bob', 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Bob', 'Milo', 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:27:38)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "removes the last cat from the cats array",
@@ -75,7 +69,7 @@
     {
       "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]",
@@ -89,22 +83,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "prepends a cat to the beginning of the cats array",
-      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 3,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [ 'bob', 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Bob', 'Milo', 'Otis', 'Garfield' ]",
-        "showDiff": true,
-        "actual": "[\n  \"bob\"\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "expected": "[\n  \"Bob\"\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
-        "stack": "AssertionError: expected [ 'bob', 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Bob', 'Milo', 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:27:38)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
       "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected [ 'Milo', 'Otis', 'Garfield' ] to have the same ordered members as [ 'Otis', 'Garfield' ]",
@@ -126,6 +107,13 @@
     {
       "title": "appends a cat to the end of the cats array",
       "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
